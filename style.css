@@ -1,0 +1,19 @@
+h1{
+    color: #bab86c;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+button:hover{
+    background-color: grey;
+    color: white;
+}
