@@ -22,14 +22,7 @@ $(document).ready(function(){
     
     var waterButton = $('<button>').addClass('btn btn-primary').text('WATER').attr('id',index);
     waterButton.click(function(event){
-      //console.log(event.target.id);
-      var cartItem = products[event.target.id];
-      cartItem.quantity = 1;
-      cart.items.push(cartItem);
-      cart.total = cart.items.length * cartItem.price;
-      $("#itemNo").text(cart.items.length);
-      $("#total").text(cart.total);
-      localStorage.setItem('cart', JSON.stringify(cart)); //when add to cart button is clicked, saved to local storage, so when you refresh the data is still there
+     
     });
     cardBody.append(waterButton);
     
