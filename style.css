@@ -13,7 +13,16 @@ h1{
   font-size: 30px;
 }
 
-button:hover{
-    background-color: grey;
+button{
+    background-color: black;
     color: white;
+}
+
+button[id=add], select {
+    width: 5%;
+    padding: 8px 12px;
+    margin: 5px 0;
+    display: center;
+    border: 1px solid;
+    border-radius: 2px;
 }
