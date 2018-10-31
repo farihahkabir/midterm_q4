@@ -1,0 +1,3 @@
+var plants= [
+    {name="", lastwatered=""}
+];
